@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+.Navigation {
+    height: 10%;
+    overflow: none;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+}
+.Navigation2 {
+    color: white;
+    padding: 0px 0px 20px 92px;
+    width: 100%;
+    background-color: black;
+    height: 10%;
+    align-items: center;
+    font-size: 35px;
+
+}
+.Parent {
+    position: fixed;
+    width: 100%;
+}
+.anav {
+    color: white;
+    text-decoration: none;
+}
+.anav:hover {
+    color: rgb(146, 146, 146);
+}
+.anav:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: line;
+}
+.list {
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-left: 40px;
+    width: 100%;
+    align-items: center;
+}
+li {
+    padding: 0px 10px 0px 10px;
+}
+.left {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    height: 10%;
+    padding: 10px 10px 10px 10px;
+    margin-right: 20px;
+}
+.topright {
+    padding: 0px 7px 0px 7px;
+}
+.buttonon {
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px 20px 0px 20px;
+}
+.container {
+    position: relative;
+}
+.MainContainer {
+    padding-top: 150px;
+}
+.container1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: auto;
+    padding: 30px 0px 0px 10%;
+}
+.container1 > div {
+    margin: 0px 3px 0px 3px;
+}
+.footer {
+    background-color: rgb(53, 53, 53);
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color: rgb(78, 78, 78);
+}
+.logo {
+    align-items: center;
+    display: flex;
+    height: 20px;
+    width: 90%;
+    padding: 120px 0px 0px 250px;
+}
+.logo > img {
+    padding: 0px 15px 0px 15px;
+}
+.tables {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 65%;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.tables > td {
+    width: 90%;
+}
